@@ -1,0 +1,33 @@
+*{
+    font-family: 'Poppins';
+}
+
+body{
+    align-items: center;
+}
+
+/*set color*/
+:root{
+    --black-color: #200e32;
+    --primary-color: #3276d4;
+    --white-color: #ffffff;
+    --gray-color: #8f8599;
+}
+
+.container{
+    margin: 50px;
+}
+
+/*Start Content Section*/
+.right{
+    display: flex;
+}
+
+.category-item img{
+    width: 575px;
+    height: 575px;
+    object-fit: cover;
+    margin-left: 100px;
+}
+/*End Content Section*/
+
